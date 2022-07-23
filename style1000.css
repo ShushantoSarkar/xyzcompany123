@@ -1,0 +1,35 @@
+@media screen and (min-width: 1000px) {
+    nav{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+  .navItems ul a {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  nav img {
+    width: 300px;
+  }
+
+  .component2SlideshowItemContainer
+    + .component2SlideshowItemContainer
+    + .component2SlideshowItemContainer {
+    display: block;
+  }
+
+  .component1Img img {
+    max-width: 1000px;
+  }
+  .component1Text h1 {
+    font-size: 2rem;
+  }
+
+  .component1Text p {
+    font-size: 1.5rem;
+  }
+
+  .component2 {
+    max-width: 1000px;
+  }
+}

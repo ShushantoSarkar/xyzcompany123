@@ -1,0 +1,144 @@
+@media screen and (min-width: 600px) {
+  nav ul img {
+    display: block;
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .component1 {
+    display: flex;
+    padding: 0px;
+    margin-top: -30px;
+  }
+
+  .component1Text {
+    margin: auto;
+  }
+
+  .component1Img {
+    text-align: end;
+    margin-right: -30px;
+  }
+
+  .component1Img img {
+    max-width: 500px;
+  }
+
+  .component2Text {
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .component2SlideshowItemContainer + .component2SlideshowItemContainer {
+    display: block;
+  }
+
+  .component2SlideshowItemContainer
+    + .component2SlideshowItemContainer
+    + .component2SlideshowItemContainer {
+    display: none;
+  }
+
+  .component3 {
+    background-image: url("./Data/Group\ 9.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100%;
+    width: 100%;
+    background-position: center;
+    padding: 30px;
+    display: flex;
+    justify-content: end;
+  }
+
+  .component3Text {
+    width: 50%;
+    font-size: 0.4rem;
+    box-shadow: none;
+    background-color: #fafafa;
+    max-width: 300px;
+    max-height: 500px;
+  }
+
+  .component3Text p {
+    margin-top: -10px;
+  }
+
+  /* .component4SlideshowItemContainer
+    + .component4SlideshowItemContainer
+    + .component4SlideshowItemContainer {
+    display: block;
+  } */
+
+  .component6 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .background6 {
+    display: block;
+    background-color: #fafafa;
+    height: 350px;
+    width: 110%;
+    position: absolute;
+    z-index: -1;
+    top: 5%;
+  }
+
+  .component6 form {
+    width: 60%;
+    background-color: #ffffff;
+  }
+
+  .component7Text {
+    width: 40%;
+    margin: 40px;
+    padding-top: 40px;
+  }
+
+  .component7Text p,
+  .component7Text h3 {
+    font-size: 0.8rem;
+    width: max-content;
+  }
+  .component7Item img {
+    width: 40px;
+  }
+
+  footer {
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+  }
+
+  .col1 {
+    max-width: 200px;
+  }
+
+  .col1 img {
+    width: 100%;
+  }
+
+  .col2,
+  .col3,
+  .col1 p {
+    font-size: 10px;
+  }
+
+  .col2 h5,
+  .col3 h5,
+  .col4 h5 {
+    font-size: 10px;
+  }
+
+  .col4 img {
+    margin-right: 0px;
+    width: 25px;
+  }
+
+  .col4 a + a {
+    margin-left: 10px;
+  }
+}
